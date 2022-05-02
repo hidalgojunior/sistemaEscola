@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=JetBrains+Mono:wght@800&display=swap');
+/* Zerar Definições de Tamanhos do HTML */
+:root{
+    --corFundo : #222222;
+    --corTexto : #fff;
+    --corLink  : #1c5d99;
+    --corSobre : #639fab;
+    --fundoNav : #bbcde5;
+    --fonteTitulos: : 'JetBrains Mono', monospace;
+    --fonteTextos:'IBM Plex Sans', sans-serif;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: var(--corFundo);
+    color:var(--corTexto);
+    font-family: var(--fonteTextos);
+}
+ul{
+    list-style: none;
+    padding-top:20px;
+    border: 10px solid var(--fundoNav);
+    padding-bottom: 20px;
+}
+li{
+    display: inline;
+    margin:10px;
+    border:3px solid var(--fundoNav);
+    padding: 5px;
+    color:var(--corTexto);
+    font-family: var(--fonteTexto);
+}
+li:hover{
+    border-top:5px solid var(--corSobre);
+    border-bottom:5px solid var(--corSobre);
+    color:var(--corSobre);
+}
+a{
+    text-decoration: none;
+    color:var(--corTexto);
+}
+a:hover{
+    color:var(--corSobre);
+
+}
+#topo{
+    border: 10px solid var(--corLink);
+    padding:10px;
+    background-color: var(--corLink);
+    color:var(--corTexto);
+}
+#topo > h1{
+    line-height: 30px;
+    font-family: var(--fonteTitulos);
+    text-transform: uppercase;
+    text-align: center;
+}
+#topo > h3{
+    line-height: 30px;
+    text-align: center;
+    font-family: var(--fonteTitulos);
+}
