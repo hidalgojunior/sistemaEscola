@@ -9,8 +9,12 @@
     href="estilo.css"/>
 </head>
 <body>
+    <div id="pagina">
+        <div id="topo">
     <h1>Sistema de Gerenciamento Escolar</h1>
     <h3>Dias e Dias Parados Ltda.</h3>
+</div>
+<div id="nav">
     <ul>
         <li>
             <a href="index.php">
@@ -36,7 +40,8 @@
             </a>
         </li>
     </ul>
-
+</div>
+<div id="corpo">
     <h2>Acesso Restrito</h2>
    
     <form action="">
@@ -90,7 +95,10 @@
             </tr>
         </table>
     </form>
-   
+</div>
+<div id="rodape">
     <p>&copy; 2022. Arnaldo Martins Hidalgo Junior</p>
+</div>
+</div>
 </body>
 </html>

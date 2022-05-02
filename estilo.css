@@ -47,6 +47,12 @@ a:hover{
     color:var(--corSobre);
 
 }
+
+#pagina{
+    width:80%;
+    margin:auto;
+}
+
 #topo{
     border: 10px solid var(--corLink);
     padding:10px;
@@ -63,4 +69,25 @@ a:hover{
     line-height: 30px;
     text-align: center;
     font-family: var(--fonteTitulos);
+}
+#nav{
+    background-color: var(--corSobre);
+
+}
+#corpo{
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+#corpo h2{
+    padding-top:20px;
+}
+#corpo p{
+    padding-bottom: 10px;
+    padding-top:5px;
+}
+#rodape{
+    background-color: var(--corTexto);
+    color:var(--corFundo);
+    text-align: center;
+    padding:40px;
 }
