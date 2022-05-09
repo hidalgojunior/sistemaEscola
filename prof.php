@@ -47,16 +47,21 @@
     
     <?php
     //repete 5 vezes
-    for($i = 1; $i<=5; $i++){
+    for($i = 1; $i<=15; $i++){
         //exibe a informação entre aspas na tela
         echo "
-            <h3>Nome do Professor</h3>
-            <h5>E-mail do Professor</h5>
-            <h5>Site do Professor</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id molestias, omnis optio animi et ducimus quae laboriosam sed aut perspiciatis accusamus fugiat, obcaecati consectetur facilis aperiam! Ex reiciendis cumque dolorum?</p>
+            <div class='professores'>
+                <img src='https://picsum.photos/id/1062/200/300'>
+                <h3>Nome do Professor</h3>
+                <h5>E-mail do Professor</h5>
+                <h5>Site do Professor</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id molestias, omnis optio animi et ducimus quae laboriosam sed aut perspiciatis accusamus fugiat, obcaecati consectetur facilis aperiam! Ex reiciendis cumque dolorum?</p>
+            </div>
         ";
 }
     ?>
+    </div>
+    <div id="limpar">
     </div>
     <div id="rodape">
     
